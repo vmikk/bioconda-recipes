@@ -3,12 +3,12 @@ package:
   version: "0.5.7"
 
 source:
-  fn: liulab-mageck-e3eb8b892903.tar.gz
-  url: https://bitbucket.org/liulab/mageck/get/v0.5.7.tar.gz
-  md5: d84d3b6dfa430be087c2ca035bc93664
+  fn: liulab-mageck-7a0bb35521c5.tar.gz
+  url: https://bitbucket.org/liulab/mageck/get/v0.5.7b.tar.gz
+  md5: d23cfd2c589eccdddd2e710c694a93a8
 
 build:
-  number: 0
+  number: 5
 
 requirements:
   build:
@@ -32,4 +32,4 @@ test:
 about:
   home: http://mageck.sourceforge.net
   license: BSD License
-  summary: MAGeCK (Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout), a computational tool to process and analyze CRISPR screening data.
+  summary: MAGeCK (Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout), an algorithm to process, QC, analyze and visualize CRISPR screening data.
